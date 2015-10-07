@@ -1,103 +1,122 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
-<html>
-<head>
 
-    <!-- CSS (load bootstrap) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link href="css/style.css" rel="stylesheet" media="screen" id="customStyle">
+<html lang="en">
 
+  <head>
 
-    <!-- JS (load angular, ui-router, and our custom js file) -->
-    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
-    <script src="app.js"></script>
-</head>
+      <meta charset="UTF-8">
+      <title>David's Bootstrap Template</title>
 
-<!-- apply our angular app to our site -->
-<body>
+      <!-- CSS (load bootstrap) -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link href="http://localhost/octo-barnacle/css/style.css" rel="stylesheet" media="screen" id="customStyle">
+
+  </head>
+
+  <body>
+
+    <div class="container">
 
       <div class="page-header">
-          <h1>INDY IMAGINING INC.<small>Wholesale to Sign Industry</small></h1>
+        <h1>David Steele<span class="small"> Web Master</span></h1>
       </div>
 
-<!-- NAVIGATION -->
-<nav id="myNavbar" class="navbar navbar-default navbar-inverse " role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="container">
-        <div class="navbar-header">
+      <!-- NAVIGATION -->
+      <nav id="davesNavbar" class="navbar navbar-default navbar-inverse " role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+          <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">David Steele's Learning A Lot</a>
+            <a class="navbar-brand" href="http://localhost/octo-barnacle/">David Steele's Learning A Lot</a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="http://localhost/octo-barnacle/" target="_self"><span class="glyphicon glyphicon-home"> Home</a></span></li>
+              <li><a href="http://localhost/octo-barnacle/" target="_self"><span class="glyphicon glyphicon-home"> Home</a></span></li>
               <li><a href="http://localhost/octo-barnacle/pages/about.html" target="_self"><span class="glyphicon glyphicon-question-sign"> About</a></span></li>
-              <li><a href="http://localhost/octo-barnacle/pages/contact.html" target="_self"><span class="glyphicon glyphicon-usd"> Contact</a></span></li>
+              <li class="active"><a href="http://localhost/octo-barnacle/pages/contact.html" target="_self"><span class="glyphicon glyphicon-usd"> Contact</a></span></li>
             </ul>
           </div>
-      </div>
-</nav>
+        </div>
+      </nav>
 
-<div class="container">
-    <div class="jumbotron">
-      <h1>You Can Learn to Create Websites Like This One</h1>
-      <p>We can put some text here or whatever. The bottom of the page is where I practiced understanding the responsive grid system.</p>
-      <p><a href="#" target="_self" class="btn btn-success btn-lg">Get started today</a></p>
-    </div>
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-2">
-          <h2>HTML</h2>
-          <p class="lead">HTML is what I created this page with there is no CSS yet except what is default for Bootstrap</p>
-          <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+      <div class="container">
+
+        <div class="jumbotron">
+          <h1>You Can Learn to Create Websites Like This One</h1>
+          <p>We can put some text here or whatever. The bottom of the page is where I practiced understanding the responsive grid system.</p>
+          <p><a href="#" target="_self" class="btn btn-success btn-lg">Get started today</a></p>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-2">
-          <h2>CSS</h2>
-          <p>CSS is gonna be used but not yet...</p>
-          <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+
+        <div class="row">
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <h2>HTML</h2>
+            <p class="lead">HTML is what I created this page with there is no CSS yet except what is default for Bootstrap</p>
+            <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <h2>CSS</h2>
+            <p>CSS is gonna be used but not yet...</p>
+            <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+          </div>
+
+          <div class="clearfix visible-sm-block"></div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <h2>Bootstrap</h2>
+            <p>Bootstrap is pretty cool really!!!</p>
+            <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+          </div>
+
+          <div class="clearfix visible-md-block"></div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <h2>References</h2>
+            <p>The references section outlines all the standard HTML tags and CSS properties along with other useful references such as color names and values, symbols and character entities, web safe fonts, language codes, HTTP messages and much more.</p>
+            <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+          </div>
+
+          <div class="clearfix visible-sm-block"></div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <h2>Examples</h2>
+            <p>The examples section encloses an extensive collection of examples on various topic that you can try and test yourself using online HTML editor.</p>
+            <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-2">
+            <h2>FAQ</h2>
+            <p>The collection of Frequently Asked Questions (FAQ) provides brief answers to many common questions related to web design and development.</p>
+            <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
+          </div>
+
         </div>
-        <div class="clearfix visible-sm-block"></div>
-        <div class="col-sm-6 col-md-4 col-lg-2">
-          <h2>Bootstrap</h2>
-          <p>Bootstrap is pretty cool really!!!</p>
-          <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="clearfix visible-md-block"></div>
-        <div class="col-sm-6 col-md-4 col-lg-2">
-          <h2>References</h2>
-          <p>The references section outlines all the standard HTML tags and CSS properties along with other useful references such as color names and values, symbols and character entities, web safe fonts, language codes, HTTP messages and much more.</p>
-          <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="clearfix visible-sm-block"></div>
-        <div class="col-sm-6 col-md-4 col-lg-2">
-          <h2>Examples</h2>
-          <p>The examples section encloses an extensive collection of examples on various topic that you can try and test yourself using online HTML editor.</p>
-          <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-2">
-          <h2>FAQ</h2>
-          <p>The collection of Frequently Asked Questions (FAQ) provides brief answers to many common questions related to web design and development.</p>
-          <p><a href="#" target="_self" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-sm-12">
+
+        <hr>
+
+        <div class="row">
+
+          <div class="col-sm-12">
             <footer>
-                <p><span class="glyphicon glyphicon-copyright-mark"></span> Copyright 2015 David Steele</p>
+              <p><span class="glyphicon glyphicon-copyright-mark"></span> Copyright 2015 David Steele</p>
             </footer>
+          </div>
+
         </div>
+
+      </div>
+
     </div>
-</div>
-</body>
+
+    </body>
 </html>

@@ -1,12 +1,51 @@
-.container-fluid {
+.navbar {
+
+}
+
+.container {
   width: 90%;
 }
 
-.page-header, .bs-example {
-  width: 90%;
+.page-header {
+
+}
+
+#example {
+    background-color: #ffffff;
+    color: #000;
+    width: 400px;
 }
 
 #div-before, #div-after {
     background-color: #88d;
     color: #000;
+}
+
+#div-1 {
+    background-color: black;
+    color: #ffffff;
+    padding: 0px 10px 0px 10px;
+
+}
+
+#div-1a {
+    float: left;
+    background-color: red;
+    color: #ffffff;
+    width:190px;
+
+}
+
+#div-1b {
+    background-color: green;
+    color: #ffffff;
+    float: left;
+    width:190px;
+}
+
+#div-1c {
+    background-color: blue;
+    color: #ffffff;
+    clear: both;
+
 }

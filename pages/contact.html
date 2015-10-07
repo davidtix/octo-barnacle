@@ -1,31 +1,41 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Bootstrap 3 Responsive Layout Example</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <div class="bs-example">
-      <div class="page-header">
-          <h1>INDY IMAGINING INC.<small>Wholesale to Sign Industry</small></h1>
-      </div>
-  </div>
-  <!-- NAVIGATION -->
-  <nav id="myNavbar" class="navbar navbar-default navbar-inverse " role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
+
+  <head>
+
+      <meta charset="UTF-8">
+      <title>David's Bootstrap Template</title>
+
+      <!-- CSS (load bootstrap) -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link href="http://localhost/octo-barnacle/css/style.css" rel="stylesheet" media="screen" id="customStyle">
+
+  </head>
+
+  <body>
+
     <div class="container">
-        <div class="navbar-header">
+
+      <div class="page-header">
+        <h1>David Steele<span class="small"> Web Master</span></h1>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav id="davesNavbar" class="navbar navbar-default navbar-inverse " role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+          <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">David Steele's Learning A Lot</a>
+            <a class="navbar-brand" href="http://localhost/octo-barnacle/">David Steele's Learning A Lot</a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -35,21 +45,137 @@
               <li class="active"><a href="http://localhost/octo-barnacle/pages/contact.html" target="_self"><span class="glyphicon glyphicon-usd"> Contact</a></span></li>
             </ul>
           </div>
-      </div>
-  </nav>
-<div class="container">
-    <div class="jumbotron">
-        <h1>Contact Us</h1>
-        <p></p>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-sm-12">
-          <footer>
-              <p>© Copyright 2015 David Steele</p>
-          </footer>
         </div>
+      </nav>
+
+      <div class="container">
+
+        <div class="jumbotron">
+
+          <h1>Contact Us</h1>
+
+          <blockquote class="text-right">
+            <p>There is a principle which is a bar against all information, which is proof against all arguments and which cannot fail to keep a man in everlasting ignorance - that principle is contempt prior to investigation</p>
+            <small>by <cite>Herbert Spencer</cite></small>
+          </blockquote>
+
+        </div>
+
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="table-responsive">
+
+            <table class="table table-striped table-bordered table-hover table-condensed">
+
+              <thead>
+                <tr>
+                  <th>Row</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>John</td>
+                  <td>Carter</td>
+                  <td>johncarter@mail.com</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Peter</td>
+                  <td>Parker</td>
+                  <td>peterparker@mail.com</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>John</td>
+                  <td>Rambo</td>
+                  <td>johnrambo@mail.com</td>
+                </tr>
+              </tbody>
+
+            </table>
+
+          </div>
+
+        </div>
+
+        <div class="daves-list">
+          <h2>Dave Practicing on Horizontal List</h2>
+
+          <ul class="list-inline list-group-item-danger">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Products</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+
+        </div>
+
+        <div class="daves-list2">
+          <h2>Dave Practicing on Definition List</h2>
+
+          <dl class="dl-horizontal">
+            <dt>User Agent</dt>
+            <dd>An HTML user agent is any device that interprets HTML documents.</dd>
+            <dt>Client-side Scripting</dt>
+            <dd>Client-side scripting generally refers to the category of computer programs on the web that are executed client-side i.e. by the user's web browser.</dd>
+            <dt>Document Tree</dt>
+            <dd>The tree of elements encoded in the source document.</dd>
+          </dl>
+
+        </div>
+
+        <div class="daves-list2">
+          <h2>Dave Practicing on Definition List</h2>
+
+          <ul class="list-group">
+            <li class="list-group-item">Pictures</li>
+            <li class="list-group-item">Documents</li>
+            <li class="list-group-item">Music</li>
+            <li class="list-group-item">Videos</li>
+          </ul>
+
+        </div>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+              <span class="glyphicon glyphicon-camera"></span> Pictures <span class="badge">25</span>
+          </a>
+          <a href="#" class="list-group-item">
+              <span class="glyphicon glyphicon-file"></span> Documents <span class="badge">145</span>
+          </a>
+          <a href="#" class="list-group-item">
+              <span class="glyphicon glyphicon-music"></span> Music <span class="badge">50</span>
+          </a>
+          <a href="#" class="list-group-item">
+              <span class="glyphicon glyphicon-film"></span> Videos <span class="badge">8</span>
+          </a>
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+          <div class="col-sm-12">
+            <footer>
+              <p><span class="glyphicon glyphicon-copyright-mark"></span> Copyright 2015 David Steele</p>
+            </footer>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
-</div>
-</body>
+
+    </body>
 </html>
